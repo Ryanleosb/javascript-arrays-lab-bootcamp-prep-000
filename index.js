@@ -22,3 +22,8 @@ function prependKitten(name){
   newKittens.unshift(name)
   return newKittens
 };
+
+function destructivelyRemoveLastKitten(name){
+  kitten.slice(name)
+  return kittens
+};
